@@ -20,6 +20,7 @@ int main(){
                 resto = aux % 10;
                 aux = aux / 10;
                 contador[resto]++;
+                //printf("%d %d \n", resto, aux);
             }
         }
 
